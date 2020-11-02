@@ -1,2 +1,4 @@
-# order-optimizer
-OpenCV &amp; PyTesseract driven order optimizer for kitchen staff
+# Order Optimizer
+OpenCV &amp; PyTesseract driven order optimizer for kitchen staff.
+
+
