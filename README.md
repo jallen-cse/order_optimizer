@@ -7,6 +7,7 @@ RS232 communications are sampled from a twisted-pair network cable connecting an
 
 ## Usage
 Target 'main.py'; use option '--sim_serial' to simulate serial receive data with tickets in ticket_samples directory.
+Ex: 'python3 main.py' OR 'python3 main.py --sim_serial'
 
 ## Additional Package Requirements
 PySerial - https://github.com/pyserial/pyserial -- with pip, use 'pip install pyserial'
