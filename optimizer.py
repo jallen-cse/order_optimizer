@@ -118,4 +118,4 @@ class OrderOptimizer:
                 cv2.putText(canvas, f" {line}", (self.left_justification, text_cursor), 5, .7, (255,255,255), 1, lineType=16)
             
             if item_i == self.cursor and draw_cursor:
-                canvas[cursor_start+2:text_cursor+3, 0:canvas.shape[1]-1] = ~canvas[cursor_start+2:text_cursor+3, 0:canvas.shape[1]-1]
+                canvas[cursor_start+2:text_cursor+3, 0:canvas.shape[1]] = ~canvas[cursor_start+2:text_cursor+3, 0:canvas.shape[1]]

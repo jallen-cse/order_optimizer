@@ -46,7 +46,6 @@ class Counter(Element):
         self.val += val
         self.text = str(self.val)
 
-
 class Panel:
     def __init__(self, text="", x_pos=0, y_pos=0, width=0, height=0, color=(0,0,0), transparent = False):
         self.text = text
